@@ -6,16 +6,3 @@ public class HW01 {
 		dog.bark();
 	}
 }
-
-class Animal {
-	String name;
-	
-	String getName() {
-		return this.name;
-	}
-}
-class Dog extends Animal{
-	void bark() {
-		System.out.println("바우와우");
-	}
-}
